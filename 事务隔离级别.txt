@@ -1,0 +1,8 @@
+就是设置了隔离级别：set  tx_islation READ-UNCOMMITTED （读未提交）
+就是A读取了B修改的但是没有提交的数据。
+
+
+
+
+
+
