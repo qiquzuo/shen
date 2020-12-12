@@ -17,6 +17,7 @@ public class MyAppConfig {
     @Bean
     public HelloService helloService(){
         System.out.println("配置类给容器添加了HelloService组件");
+        System.out.println("shuru");
         return new HelloService();
     }
 }
