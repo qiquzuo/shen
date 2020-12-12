@@ -4,6 +4,7 @@ public class Dog {
 
     private String name;
     private Integer age;
+    public int a;
 
     public String getName() {
         return name;
